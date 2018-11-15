@@ -13,8 +13,10 @@ def setup(app):
 
     # The 'rebuild' parameter should set as 'html' rather than 'env' since this extension needs a full rebuild of HTML
     # document
+    app.setup_extension('sphinx.ext.autodoc')
     app.add_config_value('mkdsupport_use_parser', 'markdown_github', 'html')
     app.connect('autodoc-process-docstring', pandoc_process)
+
 
 
 def pandoc_process(app, what, name, obj, options, lines):
