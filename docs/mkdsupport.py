@@ -2,10 +2,15 @@
 """
 
 import pypandoc
-
+import platform
 
 # Since pypandoc.convert_text will always return strings ended with \r\n, the separator should also set to it
-SEP = u'\n'
+
+if platform.system == 'Windows':
+    SEP = u'\r\n'
+else:
+    SEP = u'\n'
+
 
 
 def setup(app):

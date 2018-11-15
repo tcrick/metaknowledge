@@ -53,8 +53,8 @@ extensions = [
 	'sphinx.ext.napoleon',
 	'nbsphinx',
 	'sphinx.ext.mathjax',
-	'mkdsupport',
 	'cloud_sptheme.ext.autodoc_sections',
+	'mkdsupport',
 
 ]
 
