@@ -5,7 +5,7 @@ import pypandoc
 
 
 # Since pypandoc.convert_text will always return strings ended with \r\n, the separator should also set to it
-SEP = u'\r\n'
+SEP = u'\n'
 
 
 def setup(app):
