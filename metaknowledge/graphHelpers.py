@@ -342,7 +342,7 @@ def writeNodeAttributeFile(grph, name, allSameAttribute = False, _progBar = None
             PBar.finish("Done node attribute list: {}, {} nodes written.".format(name, count))
 
 def writeTnetFile(grph, name, modeNameString, weighted = False, sourceMode = None, timeString = None, nodeIndexString = 'tnet-ID', weightString = 'weight'):
-    """Writes an edge list designed for reading by the _R_ package [_tnet_](https://toreopsahl.com/tnet/).
+    """Writes an edge list designed for reading by the _R_ package [tnet](https://toreopsahl.com/tnet/).
 
     The _networkx_ graph provided must be a pure two-mode network, the modes must be 2 different values for the node attribute accessed by _modeNameString_ and all edges must be between different node types. Each node will be given an integer id, stored in the attribute given by _nodeIndexString_, these ids are then written to the file as the endpoints of the edges. Unless _sourceMode_ is given which mode is the source (first column) and which the target (second column) is random.
 
