@@ -2,3 +2,4 @@ nbsphinx
 pypandoc
 cloud_sptheme
 sphinx==1.8.2
+sphinx_rtd_theme

@@ -49,12 +49,12 @@ needs_sphinx = '1.8.2'
 # ones.
 extensions = [
 	'sphinx.ext.autodoc',
-    'cloud_sptheme.ext.autodoc_sections',
     'sphinx.ext.coverage',
 	'sphinx.ext.napoleon',
 #	'sphinx.ext.autosummary',
 	'nbsphinx',
 	'mkdsupport',
+	'cloud_sptheme.ext.autodoc_sections',
 	'sphinx.ext.mathjax',
 
 ]
