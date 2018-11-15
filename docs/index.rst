@@ -8,7 +8,7 @@ metaknowledge
 
 metaknowledge currently handles data from the Web of Science, PubMed, Scopus, Proquest Dissertations & Theses, and administrative data from the National Science Foundation and the Canadian tri-council granting agencies: SSHRC, CIHR, and NSERC.
 
-Datasets created with metaknowledge can be analyzed using NetworkX_ and the `standard libraries <http://www.scipy.org/about.html>`_ for data analysis in Python. It is also easy to write data to :code:`csv` or :code:`graphml` files for analysis and visualization in `R <http://www.r-project.org>`_, `Stata <http://www.stata.com>`_, `Visone <http://visone.info>`_, `Gephi <http://gephi.github.io>`_, or any other tools for data analysis.</p>
+Datasets created with metaknowledge can be analyzed using NetworkX_ and the `standard libraries <http://www.scipy.org/about.html>`_ for data analysis in Python. It is also easy to write data to :code:`csv` or :code:`graphml` files for analysis and visualization in `R <http://www.r-project.org>`_, `Stata <http://www.stata.com>`_, `Visone <http://visone.info>`_, `Gephi <http://gephi.github.io>`_, or any other tools for data analysis.
 
 *metaknowledge* also has a simple command line tool for extracting quantitative datasets and network files from Web of Science files. This makes the library more accessible to researchers who do not know Python, and makes it easier to quickly explore new datasets.
 

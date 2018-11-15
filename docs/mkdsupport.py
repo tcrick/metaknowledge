@@ -6,11 +6,11 @@ import platform
 
 # Since pypandoc.convert_text will always return strings ended with \r\n, the separator should also set to it
 
-if platform.system == 'Windows':
-    SEP = u'\r\n'
+if platform.system() == 'Windows':
+   SEP = u'\r\n'
 else:
     SEP = u'\n'
-
+#SEP = u'\r\n'
 
 
 def setup(app):
