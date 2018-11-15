@@ -48,13 +48,13 @@ needs_sphinx = '1.8.2'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-	'mkdsupport',
-	'cloud_sptheme.ext.autodoc_sections',
 	'sphinx.ext.autodoc',
 	'sphinx.ext.coverage',
 	'sphinx.ext.napoleon',
 	'nbsphinx',
 	'sphinx.ext.mathjax',
+	'mkdsupport',
+
 
 ]
 
