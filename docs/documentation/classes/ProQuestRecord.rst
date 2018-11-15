@@ -1,5 +1,5 @@
 ProQuestRecord(ExtendedRecord)
-=============================
+==============================
 
 
 .. autoclass:: metaknowledge.proquest.ProQuestRecord

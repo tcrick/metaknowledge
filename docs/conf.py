@@ -14,6 +14,7 @@
 #
 import os
 import sys
+sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('../metaknowledge'))
 sys.path.insert(0, os.path.abspath('../metaknowledge/contour'))
@@ -52,7 +53,9 @@ extensions = [
 	'sphinx.ext.napoleon',
 #	'sphinx.ext.autosummary',
 	'nbsphinx',
+	'mkdsupport',
 	'sphinx.ext.mathjax',
+	'cloud_sptheme.ext.autodoc_sections',
 ]
 
 autodoc_mock_imports = ['matplotlib', 'networkx', 'scipy', 'numpy']

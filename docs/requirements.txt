@@ -1,1 +1,3 @@
 nbsphinx
+pypandoc
+cloud_sptheme
