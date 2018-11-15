@@ -54,7 +54,7 @@ extensions = [
 #	'sphinx.ext.autosummary',
 	'nbsphinx',
 	'mkdsupport',
-	'cloud_sptheme.ext.autodoc_sections',
+#	'cloud_sptheme.ext.autodoc_sections',
 	'sphinx.ext.mathjax',
 
 ]
