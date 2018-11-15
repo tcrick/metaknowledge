@@ -1,4 +1,4 @@
 nbsphinx
 pypandoc
 cloud_sptheme
-sphinx=1.8.2
+sphinx==1.8.2
