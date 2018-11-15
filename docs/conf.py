@@ -48,14 +48,15 @@ needs_sphinx = '1.8.2'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
+	'sphinx.ext.autodoc',
+    'cloud_sptheme.ext.autodoc_sections',
     'sphinx.ext.coverage',
 	'sphinx.ext.napoleon',
 #	'sphinx.ext.autosummary',
 	'nbsphinx',
 	'mkdsupport',
 	'sphinx.ext.mathjax',
-	'cloud_sptheme.ext.autodoc_sections',
+
 ]
 
 autodoc_mock_imports = ['matplotlib', 'networkx', 'scipy', 'numpy']
