@@ -53,7 +53,7 @@ extensions = [
 	'sphinx.ext.napoleon',
 #	'sphinx.ext.autosummary',
 	'nbsphinx',
-	'mkdsupport',
+#	'mkdsupport',
 #	'cloud_sptheme.ext.autodoc_sections',
 	'sphinx.ext.mathjax',
 
