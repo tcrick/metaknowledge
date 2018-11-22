@@ -330,7 +330,7 @@ class Citation(collections.abc.Hashable):
             return None
 
     def addToDB(self, manualName = None, manualDB = manualDBname, invert = False):
-        """Adds the journal of this Citation to the user created database of journals. This will cause [isJournal()](#metaknowledge.citationCitation.isJournal) to return `True` for this Citation and all others with its `journal`.
+        """Adds the journal of this Citation to the user created database of journals. This will cause [isJournal()](#metaknowledge.citation.Citation.isJournal) to return `True` for this Citation and all others with its `journal`.
 
         **Note**: Requires the [j9Abbreviations](../modules/journalAbbreviations.html#metaknowledge.journalAbbreviations.backend.getj9dict) database file and will raise an error if it cannot be found.
 
