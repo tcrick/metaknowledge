@@ -11,6 +11,7 @@ baseGrant
 .. automodule:: metaknowledge.grants.baseGrant
    :members:
    :undoc-members:
+   :noindex:
    
 cihrGrant
 ---------
@@ -18,6 +19,7 @@ cihrGrant
 .. automodule:: metaknowledge.grants.cihrGrant
    :members:
    :undoc-members:
+   :noindex:
    
 medlineGrant
 ------------
@@ -25,6 +27,7 @@ medlineGrant
 .. automodule:: metaknowledge.grants.medlineGrant
    :members:
    :undoc-members:
+   :noindex:
    
 nsercGrant
 ----------
@@ -32,6 +35,7 @@ nsercGrant
 .. automodule:: metaknowledge.grants.nsercGrant
    :members:
    :undoc-members:
+   :noindex:
    
 nsfGrant
 --------
@@ -39,6 +43,7 @@ nsfGrant
 .. automodule:: metaknowledge.grants.nsfGrant
    :members:
    :undoc-members:
+   :noindex:
    
 scopusGrant
 -----------
@@ -46,4 +51,5 @@ scopusGrant
 .. automodule:: metaknowledge.grants.scopusGrant
    :members:
    :undoc-members:
+   :noindex:
    

@@ -20,6 +20,15 @@ Help Functions
    :show-inheritance:
    :inherited-members:
    
+Tag Functions
+-------------
+
+.. automodule:: metaknowledge.WOS.tagProcessing.tagFunctions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+   
 Dict Functions
 --------------
 
